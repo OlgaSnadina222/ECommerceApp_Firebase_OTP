@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/small_margin"
+    app:cardElevation="@dimen/small_margin"
+    app:cardUseCompatPadding="true"
+    card_view:CardCornerRadius="@dimen/small_margin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:elevation="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/chImage"
+                android:src="@drawable/avatar"
+                android:scaleType="fitXY"
+                android:padding="1dp"
+                android:elevation="@dimen/fab_margin"
+                app:shapeAppearanceOverlay="@style/CatSS"
+                android:layout_height="@dimen/item_img_size"
+                android:layout_width="@dimen/item_higth"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="bottom|end"
+            android:gravity="bottom|end"
+            android:elevation="@dimen/fab_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/itemName"
+                android:text="@string/app_name"
+                android:textStyle="bold|normal"
+                android:textColor="@color/blue"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:paddingLeft="@dimen/small_margin"
+                android:paddingRight="@dimen/small_margin"
+                android:paddingTop="@dimen/margin_btn"
+                android:paddingBottom="@dimen/margin_btn"
+                android:textAppearance="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/desc"
+                android:text="@string/app_name"
+                android:textStyle="normal"
+                android:textColor="@color/grey_mild"
+                android:textSize="11sp"
+                android:maxLines="2"
+                android:layout_gravity="end"
+                android:gravity="start"
+                android:paddingLeft="@dimen/small_margin"
+                android:paddingRight="@dimen/small_margin"
+                android:paddingTop="@dimen/margin_btn"
+                android:paddingBottom="@dimen/margin_btn"
+                android:textAppearance="@style/textStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/quality"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="@string/app_name"
+                android:textColor="@color/grey_2"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/addLayout"
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/minusCard"
+                    android:src="@drawable/ic_remove"
+                    android:layout_gravity="bottom|end"
+                    android:backgroundTint="@color/dot_dark_screen4"
+                    android:elevation="@dimen/fab_margin"
+                    android:padding="@dimen/small_margin"
+                    app:maxImageSize="@dimen/small_margin"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:fabCustomSize="30dp"
+                    app:tint="@color/white"
+                    app:fabSize="mini"/>
+
+                <TextView
+                    android:id="@+id/addText"
+                    android:text="@string/Zero"
+                    android:layout_margin="5dp"
+                    android:textSize="11sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/switch_trcks"
+                    android:paddingStart="@dimen/small_margin"
+                    android:paddingEnd="@dimen/small_margin"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_rupss"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:id="@+id/itemPrice"
+                    android:layout_weight="1"
+                    android:text="@string/Zero"
+                    android:textSize="@dimen/smolltext"
+                    android:layout_marginEnd="@dimen/fab_margin"
+                    android:textStyle="bold|normal"
+                    android:textColor="@color/red"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    card_view:ignore="NestedWeights" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/chFav"
+                    android:elevation="@dimen/fab_margin"
+                    android:padding="@dimen/small_margin"
+                    android:src="@drawable/ic_favorite"
+                    android:layout_gravity="bottom|end"
+                    app:backgroundTint="@color/bg_screen3"
+                    app:maxImageSize="@dimen/fab_margin"
+                    android:visibility="invisible"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:fabCustomSize="35dp"
+                    app:fabSize="mini"
+                    app:tint="@color/white"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/addToCard"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:fabCustomSize="55dp"
+                android:src="@drawable/ic_add_cart"
+                android:layout_gravity="bottom|end"
+                android:elevation="@dimen/fab_margin"
+                android:padding="@dimen/small_margin"
+                app:shapeAppearanceOverlay="@style/FabShape6"
+                app:backgroundTint="@color/pink"
+                app:tint="@color/white"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

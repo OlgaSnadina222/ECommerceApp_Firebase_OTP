@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "448945190116",
+    "project_id": "ecommerce-dc7a5",
+    "storage_bucket": "ecommerce-dc7a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448945190116:android:8047543bdd7aeb903ae8f1",
+        "android_client_info": {
+          "package_name": "com.snadinao.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448945190116-u9beto4rusrhtg63362g8cgtcgb8bk8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snadinao.ecommerce",
+            "certificate_hash": "5a4b18277e7995ae3ff568fea07ec983622ed33c"
+          }
+        },
+        {
+          "client_id": "448945190116-11b9js7pgrlom6viiba3fehaa3vhv3to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCby3uZitl3dMfFcne0YuCXb7IdWtLgsWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448945190116-11b9js7pgrlom6viiba3fehaa3vhv3to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

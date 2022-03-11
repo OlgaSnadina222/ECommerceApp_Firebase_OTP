@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ECommerce/app/src/main/res/drawable/backgrounds_shapes.xml" value="0.37083333333333335" />
+        <entry key="..\:/ECommerce/app/src/main/res/drawable/bt_bg.xml" value="0.37083333333333335" />
+        <entry key="..\:/ECommerce/app/src/main/res/drawable/ic_baseline_local_offer_24.xml" value="0.37083333333333335" />
+        <entry key="..\:/ECommerce/app/src/main/res/drawable/ic_ingerspic.xml" value="0.37083333333333335" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_main.xml" value="0.340625" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_otp.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_setup_profile.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_setup_prpfile.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_slider.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_verification.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_welcome.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/all_category.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/all_item_gets.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/card_items.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/category.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/fragment_card.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/fragment_category.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/fragment_item.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/fragment_pay.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/fragment_track_order.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/grocery_item.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/grosery_item.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/item_category.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/man_cloth_item.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/nav_header.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/navigation_drawer.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/slider_item.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/slider_view.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/toy_item.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/welcom_sl1.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/welcom_sl2.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/welcom_sl3.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/welcom_sl4.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/woman_cloth_item.xml" value="0.3546875" />
+        <entry key="..\:/ECommerce/app/src/main/res/menu/nav_drawer.xml" value="0.3546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3546875" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    tools:context=".view.SetupProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imView"
+        android:src="@drawable/avatar"
+        android:layout_marginTop="32dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:text="@string/profile_info"
+        android:textAlignment="center"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:textStyle="bold|normal"
+        android:textColor="@color/blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/profile_fill"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="bold|normal"
+        android:textColor="@color/grey_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="@color/white"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/userName"
+                android:hint="@string/hint_name"
+                android:padding="5dp"
+                android:ems="1"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:textStyle="bold|normal"
+                android:textColor="@color/grey_dark"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/backgrounds_shapes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/nameContinue"
+                android:text="@string/setup_profile"
+                android:textStyle="bold|normal"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/bg_screen3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
